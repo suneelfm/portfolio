@@ -1,0 +1,105 @@
+.layoutBody {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 50vw;
+  }
+  100% {
+    background-position: 100vw;
+  }
+}
+
+.headerBar {
+  position: absolute;
+  top: 0;
+  height: calc(7px + 7vmin);
+  box-shadow: 0 0 10px #363636;
+  background-color: #939893;
+  z-index: 1;
+  padding: 0 calc(1px + 1vmin);
+}
+
+.avatar {
+  height: calc(5px + 5vmin) !important;
+  width: calc(5px + 5vmin) !important;
+  margin: 0 calc(1px + 1vmin) !important;
+  cursor: pointer;
+}
+
+.name {
+  font-size: calc(2px + 2vmin);
+  font-weight: bold;
+  color: #272727;
+}
+
+.tabContainer {
+  align-items: center !important;
+  height: 100% !important;
+  white-space: nowrap !important;
+  overflow: auto !important;
+}
+
+.tabButton {
+  text-transform: none !important;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 calc(1.5px + 1.5vmin) !important;
+  margin: 0 calc(0.5px + 0.5vmin) !important;
+}
+.tabButton:hover {
+  background-color: rgb(128, 128, 128) !important;
+  color: #272727 !important;
+}
+
+.tabIcon {
+  font-size: calc(3px + 3vmin) !important;
+  margin-right: calc(1px + 1vmin) !important;
+}
+
+.contentContainer {
+  position: absolute;
+  top: calc(7px + 7vmin);
+  bottom: 0;
+  background-color: aliceblue;
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 50%) 0,
+    hsl(0, 0%, 70%) 30%,
+    hsl(0, 0%, 50%) 60%
+  );
+  animation: shine 5s infinite linear;
+}
+
+.menuButtonContainer {
+  align-items: center !important;
+  justify-content: flex-end !important;
+  padding: 0 calc(2px + 2vmin) !important;
+}
+
+.menuButton {
+  color: #4f4f4f !important;
+  cursor: pointer;
+}
+.menuButton:hover {
+  color: #272727 !important;
+}
+
+.menuItem {
+  font-size: calc(2px + 2vmin) !important;
+  padding: calc(1px + 1vmin) calc(2px + 2vmin) !important;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.menuItem:hover {
+  background-color: #b4b4b4;
+}
