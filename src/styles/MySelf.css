@@ -90,8 +90,8 @@
 }
 
 .projectCollapse {
-  background-color: #939893;
-  border-radius: calc(2px + 2vmin);
+  background-color: white;
+  border-radius: calc(1px + 1vmin);
   margin: calc(2px + 2vmin) 0;
 }
 
@@ -118,4 +118,13 @@
 .college {
   font-size: calc(2.2px + 2.2vmin);
   margin-bottom: calc(1px + 0.5vmin) !important;
+}
+
+.link {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+.link:hover {
+  color: #2f2f2f;
+  text-decoration: underline;
 }

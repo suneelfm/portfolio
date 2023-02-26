@@ -60,7 +60,7 @@ export default function Layout() {
                     xs: "10px !important",
                   },
                   backgroundColor:
-                    location.pathname === tab.route ? "rgb(128, 128, 128)" : "",
+                    location.pathname === tab.route ? "white" : "",
                   color:
                     location.pathname === tab.route
                       ? "#272727 !important"
