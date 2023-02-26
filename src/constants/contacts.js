@@ -1,15 +1,19 @@
 export const CONTACTS = [
   {
-    detail: "1234567899",
+    detail: "7090125087",
     gif: "https://media.tenor.com/zVNzIFTdYIEAAAAi/call.gif",
   },
   {
-    detail: "xyz.xyz@xyz.zyx",
+    detail: "sfm.20031998@gmail.com",
     gif: "https://thumbs.gfycat.com/LegitimateImpureEuropeanfiresalamander-max-1mb.gif",
   },
   {
     detail: (
-      <a href="https://www.linkedin.com/in/suneel-f-m-3325a720a/">
+      <a
+        rel="noreferrer"
+        href="https://www.linkedin.com/in/suneel-f-m-3325a720a/"
+        target={"_blank"}
+      >
         https://www.linkedin.com/in/suneel-f-m-3325a720a/
       </a>
     ),

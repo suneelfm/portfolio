@@ -1,5 +1,5 @@
 import { MenuTwoTone } from "@mui/icons-material";
-import { Avatar, Button, Grid, Menu, MenuItem } from "@mui/material";
+import { Avatar, Button, Grid, Menu } from "@mui/material";
 import React, { useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { TABS } from "../constants/tabs";
