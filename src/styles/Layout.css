@@ -21,7 +21,7 @@
   top: 0;
   height: calc(7px + 7vmin);
   box-shadow: 0 0 10px #363636;
-  background-color: #939893;
+  background-color: #90caf9;
   z-index: 1;
   padding: 0 calc(1px + 1vmin);
 }
@@ -70,12 +70,7 @@
   top: calc(7px + 7vmin);
   bottom: 0;
   background-color: aliceblue;
-  background: linear-gradient(
-    to right,
-    hsl(0, 0%, 50%) 0,
-    hsl(0, 0%, 70%) 30%,
-    hsl(0, 0%, 50%) 60%
-  );
+  background: linear-gradient(to right, #b4dcfd 0, #e3f2fd 30%, #b4dcfd 60%);
   animation: shine 5s infinite linear;
 }
 

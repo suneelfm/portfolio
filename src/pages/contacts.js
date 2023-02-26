@@ -16,7 +16,7 @@ export default function Contacts() {
             xs={12}
             sm={10}
             md={11}
-            justifyContent="center"
+            sx={{ justifyContent: { xs: "center", sm: "flex-start" } }}
             textAlign={"center"}
           >
             {contact.detail}
