@@ -12,6 +12,7 @@ export default function Projects() {
     <Grid className="skill container">
       {PROJECTS.map((project, index) => (
         <Collapse
+          key={index}
           in={expandProject === index}
           collapsedSize={"calc(8px + 8vmin)"}
           timeout={1000}

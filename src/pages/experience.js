@@ -6,8 +6,8 @@ export default function Experience() {
   return (
     <Grid className="experience container">
       <Grid container>
-        {EXPERIENCE.map((exp) => (
-          <Grid item xs={12} md={6} lg={4} p={1}>
+        {EXPERIENCE.map((exp, index) => (
+          <Grid key={index} item xs={12} md={6} lg={4} p={1}>
             <Card className="expCard">
               <img alt="ty" src={exp.backgroundImg} className="cardImage" />
               <Grid container className="cardHeader">

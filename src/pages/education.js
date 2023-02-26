@@ -5,8 +5,8 @@ import { EDUCATIONS } from "../constants/educations";
 export default function Education() {
   return (
     <Grid className="skill container">
-      {EDUCATIONS.map((edu) => (
-        <Grid container py={1}>
+      {EDUCATIONS.map((edu, index) => (
+        <Grid key={index} container py={1}>
           <Grid item xs={12} className="eduTitle">
             {edu.eduTitle}
           </Grid>

@@ -43,7 +43,7 @@ export default function Layout() {
           <Grid display={"flex"}>
             {TABS.map((tab, index) => (
               <Button
-                key={1}
+                key={index}
                 className="tabButton"
                 onClick={() => handleTabClick(tab)}
                 sx={{
@@ -98,8 +98,9 @@ export default function Layout() {
           "aria-labelledby": "basic-button",
         }}
       >
-        {TABS.map((tab) => (
+        {TABS.map((tab, index) => (
           <li
+            key={index}
             onClick={() => {
               handleTabClick(tab);
               setMenuAnchorEl(null);
